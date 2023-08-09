@@ -22,14 +22,14 @@ Reading in:
 
 ```matlab
 yaml_file = 'test.yaml';
-YamlStruct = yaml.ReadYaml(yaml_file);
+YamlStruct = ReadYaml(yaml_file);
 ```
 
 Writing out
 
  ```matlab
  x.name='Martin';
- yaml.WriteYaml('test.yaml',x)
+ WriteYaml('test.yaml',x)
 ```
 
 
